@@ -10,6 +10,8 @@
 		CE30DAE31C6B70F0009D3B40 /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30DAE21C6B70F0009D3B40 /* PhotosTableViewController.m */; };
 		CE30DAEA1C6B718D009D3B40 /* FSAppFRC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30DAE61C6B718D009D3B40 /* FSAppFRC.m */; };
 		CE30DAEB1C6B718D009D3B40 /* FSAppFRCDelegation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30DAE81C6B718D009D3B40 /* FSAppFRCDelegation.m */; };
+		CE30DAF31C6B809D009D3B40 /* FSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30DAEF1C6B809D009D3B40 /* FSFileManager.m */; };
+		CE30DAF41C6B809D009D3B40 /* FSBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30DAF11C6B809D009D3B40 /* FSBL.m */; };
 		CEF7802E1C6B453C00EE7D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7802D1C6B453C00EE7D1A /* main.m */; };
 		CEF780371C6B453C00EE7D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF780351C6B453C00EE7D1A /* Main.storyboard */; };
 		CEF780391C6B453C00EE7D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF780381C6B453C00EE7D1A /* Assets.xcassets */; };
@@ -20,13 +22,11 @@
 		CEF780741C6B468900EE7D1A /* NSManagedObject+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF780661C6B468900EE7D1A /* NSManagedObject+Creation.m */; };
 		CEF780751C6B468900EE7D1A /* NSManagedObject+Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF780681C6B468900EE7D1A /* NSManagedObject+Entity.m */; };
 		CEF780761C6B468900EE7D1A /* FSCDService.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7806B1C6B468900EE7D1A /* FSCDService.m */; };
-		CEF780841C6B469D00EE7D1A /* FSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF780811C6B469D00EE7D1A /* FSFileManager.m */; };
 		CEF780871C6B46CC00EE7D1A /* FSModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEF780851C6B46CC00EE7D1A /* FSModel.xcdatamodeld */; };
 		CEF7808D1C6B49A000EE7D1A /* FSImageCD+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7808A1C6B49A000EE7D1A /* FSImageCD+CoreDataProperties.m */; };
 		CEF7808E1C6B49A000EE7D1A /* FSImageCD.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7808C1C6B49A000EE7D1A /* FSImageCD.m */; };
 		CEF780951C6B4E4A00EE7D1A /* FSCDManager+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF780941C6B4E4A00EE7D1A /* FSCDManager+Image.m */; };
 		CEF7809E1C6B508C00EE7D1A /* FSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7809D1C6B508C00EE7D1A /* FSNetwork.m */; };
-		CEF780A71C6B554F00EE7D1A /* FSBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF780A61C6B554F00EE7D1A /* FSBL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +36,11 @@
 		CE30DAE61C6B718D009D3B40 /* FSAppFRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppFRC.m; sourceTree = "<group>"; };
 		CE30DAE71C6B718D009D3B40 /* FSAppFRCDelegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAppFRCDelegation.h; sourceTree = "<group>"; };
 		CE30DAE81C6B718D009D3B40 /* FSAppFRCDelegation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppFRCDelegation.m; sourceTree = "<group>"; };
+		CE30DAEE1C6B809D009D3B40 /* FSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFileManager.h; sourceTree = "<group>"; };
+		CE30DAEF1C6B809D009D3B40 /* FSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFileManager.m; sourceTree = "<group>"; };
+		CE30DAF01C6B809D009D3B40 /* FSBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBL.h; sourceTree = "<group>"; };
+		CE30DAF11C6B809D009D3B40 /* FSBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBL.m; sourceTree = "<group>"; };
+		CE30DAF21C6B809D009D3B40 /* FSBusinessLogicDefaines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBusinessLogicDefaines.h; sourceTree = "<group>"; };
 		CEF780291C6B453C00EE7D1A /* FlickrSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF7802D1C6B453C00EE7D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEF780361C6B453C00EE7D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,9 +59,6 @@
 		CEF780681C6B468900EE7D1A /* NSManagedObject+Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Entity.m"; sourceTree = "<group>"; };
 		CEF7806A1C6B468900EE7D1A /* FSCDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCDService.h; sourceTree = "<group>"; };
 		CEF7806B1C6B468900EE7D1A /* FSCDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCDService.m; sourceTree = "<group>"; };
-		CEF7807E1C6B469D00EE7D1A /* FSBusinessLogicDefaines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBusinessLogicDefaines.h; sourceTree = "<group>"; };
-		CEF780801C6B469D00EE7D1A /* FSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFileManager.h; sourceTree = "<group>"; };
-		CEF780811C6B469D00EE7D1A /* FSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFileManager.m; sourceTree = "<group>"; };
 		CEF780861C6B46CC00EE7D1A /* FSModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FSModel.xcdatamodel; sourceTree = "<group>"; };
 		CEF780891C6B49A000EE7D1A /* FSImageCD+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSImageCD+CoreDataProperties.h"; sourceTree = "<group>"; };
 		CEF7808A1C6B49A000EE7D1A /* FSImageCD+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSImageCD+CoreDataProperties.m"; sourceTree = "<group>"; };
@@ -67,8 +69,6 @@
 		CEF7809C1C6B508C00EE7D1A /* FSNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNetwork.h; sourceTree = "<group>"; };
 		CEF7809D1C6B508C00EE7D1A /* FSNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNetwork.m; sourceTree = "<group>"; };
 		CEF780A41C6B52E800EE7D1A /* NetworkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHeader.h; sourceTree = "<group>"; };
-		CEF780A51C6B554F00EE7D1A /* FSBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBL.h; sourceTree = "<group>"; };
-		CEF780A61C6B554F00EE7D1A /* FSBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,26 @@
 			path = "Data Service/Fetched Controllers";
 			sourceTree = "<group>";
 		};
+		CE30DAEC1C6B809D009D3B40 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CE30DAED1C6B809D009D3B40 /* File Manager */,
+				CE30DAF01C6B809D009D3B40 /* FSBL.h */,
+				CE30DAF11C6B809D009D3B40 /* FSBL.m */,
+				CE30DAF21C6B809D009D3B40 /* FSBusinessLogicDefaines.h */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		CE30DAED1C6B809D009D3B40 /* File Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE30DAEE1C6B809D009D3B40 /* FSFileManager.h */,
+				CE30DAEF1C6B809D009D3B40 /* FSFileManager.m */,
+			);
+			path = "File Manager";
+			sourceTree = "<group>";
+		};
 		CEF780201C6B453C00EE7D1A = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +133,8 @@
 		CEF7802B1C6B453C00EE7D1A /* FlickrSample */ = {
 			isa = PBXGroup;
 			children = (
+				CE30DAEC1C6B809D009D3B40 /* Business Logic */,
 				CEF780431C6B464200EE7D1A /* AppDelegate */,
-				CEF780771C6B469D00EE7D1A /* Business Logic */,
 				CEF780471C6B464200EE7D1A /* Network Service */,
 				CEF780461C6B464200EE7D1A /* Data Service */,
 				CE30DAE41C6B718D009D3B40 /* Fetched Controllers */,
@@ -241,27 +261,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		CEF780771C6B469D00EE7D1A /* Business Logic */ = {
-			isa = PBXGroup;
-			children = (
-				CEF7807E1C6B469D00EE7D1A /* FSBusinessLogicDefaines.h */,
-				CEF780A51C6B554F00EE7D1A /* FSBL.h */,
-				CEF780A61C6B554F00EE7D1A /* FSBL.m */,
-				CEF7807F1C6B469D00EE7D1A /* File Manager */,
-			);
-			name = "Business Logic";
-			path = "AppDelegate/Business Logic";
-			sourceTree = "<group>";
-		};
-		CEF7807F1C6B469D00EE7D1A /* File Manager */ = {
-			isa = PBXGroup;
-			children = (
-				CEF780801C6B469D00EE7D1A /* FSFileManager.h */,
-				CEF780811C6B469D00EE7D1A /* FSFileManager.m */,
-			);
-			path = "File Manager";
-			sourceTree = "<group>";
-		};
 		CEF780881C6B498400EE7D1A /* FSImageCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,20 +345,20 @@
 			files = (
 				CEF780871C6B46CC00EE7D1A /* FSModel.xcdatamodeld in Sources */,
 				CEF7806F1C6B468900EE7D1A /* NSFetchRequest+Template.m in Sources */,
-				CEF780841C6B469D00EE7D1A /* FSFileManager.m in Sources */,
 				CE30DAEA1C6B718D009D3B40 /* FSAppFRC.m in Sources */,
 				CEF7808D1C6B49A000EE7D1A /* FSImageCD+CoreDataProperties.m in Sources */,
 				CEF7806E1C6B468900EE7D1A /* FSCDManager.m in Sources */,
 				CE30DAEB1C6B718D009D3B40 /* FSAppFRCDelegation.m in Sources */,
-				CEF780A71C6B554F00EE7D1A /* FSBL.m in Sources */,
 				CEF780751C6B468900EE7D1A /* NSManagedObject+Entity.m in Sources */,
 				CEF780741C6B468900EE7D1A /* NSManagedObject+Creation.m in Sources */,
 				CEF7804D1C6B464200EE7D1A /* AppDelegate.m in Sources */,
+				CE30DAF41C6B809D009D3B40 /* FSBL.m in Sources */,
 				CE30DAE31C6B70F0009D3B40 /* PhotosTableViewController.m in Sources */,
 				CEF7808E1C6B49A000EE7D1A /* FSImageCD.m in Sources */,
 				CEF780951C6B4E4A00EE7D1A /* FSCDManager+Image.m in Sources */,
 				CEF780761C6B468900EE7D1A /* FSCDService.m in Sources */,
 				CEF7802E1C6B453C00EE7D1A /* main.m in Sources */,
+				CE30DAF31C6B809D009D3B40 /* FSFileManager.m in Sources */,
 				CEF7809E1C6B508C00EE7D1A /* FSNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
